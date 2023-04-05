@@ -25,18 +25,34 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: var(--white-color);
-    /* перенести letter-spacing 0.02em сюди? */
+    letter-spacing: 0.02em;
+}
+
+/* Global reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 /* Global link styles */
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 
 /* Global list styles */
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
+
+/* Global reset end */
 
 /* Global button styles*/
 .button {
@@ -53,7 +69,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: var(--dark-color);
@@ -84,15 +99,12 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 
 /* Global text styles */
 .text {
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
 }
 
 /* Global footer styles */
@@ -109,8 +121,6 @@ body {
 .site-nav .link {
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
 }
 
 .site-nav .link:hover,
@@ -125,8 +135,6 @@ body {
 
 .address .link {
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color)
 }
 
 .address .link:hover,
@@ -144,7 +152,6 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--white-color);
 }
 
@@ -186,8 +193,8 @@ body {
 
 /* Page filter */
 .filter-list .button {
-color: var(--primary-brand);
-background-color: var(--cloud-color);
+    color: var(--primary-brand);
+    background-color: var(--cloud-color);
 }
 
 .filter-list .button:hover,
