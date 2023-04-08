@@ -271,7 +271,6 @@ img {
     height: 56px;
     border: none;
 
-    border: 1px solid transparent;
     color: var(--white-color);
     background-color: var(--primary-brand);
 }
@@ -366,15 +365,17 @@ img {
   | Portfolio styles
   |============================
 */
-/* Page filter */
-.filter-container {
-    margin-bottom: 72px;
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
+/* Page filter */
 .filter-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 .filter-list .button:hover,
