@@ -282,8 +282,7 @@ img {
 
 /* Benefits */
 .benefits-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
 }
@@ -357,6 +356,8 @@ img {
     margin-right: auto;
     width: 264px;
 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--cloud-color);
 }
 
